@@ -181,12 +181,14 @@ optgroup {
 }
 table {
   border-spacing: 5px;
-  border-collapse: collapse;
+  border-collapse: separate;
 }
-td,
+td {
+    text-align: left;
+}
 th {
     padding: 5px;
-    text-align: left;
+    text-align: center;
     bgcolor: #0092c6;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
