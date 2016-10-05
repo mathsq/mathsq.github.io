@@ -2255,11 +2255,10 @@ caption {
   padding-top: 8px;
   padding-bottom: 8px;
   color: #777;
-  text-width: bold;
   text-align: left;
 }
 th {
-  text-align: center;
+  text-align: left;
 }
 .table {
   width: 100%;
