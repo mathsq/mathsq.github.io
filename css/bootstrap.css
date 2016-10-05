@@ -2249,7 +2249,7 @@ pre code {
   }
 }
 table {
-  background-color: Grey;
+  background-color: transparent;
 }
 caption {
   padding-top: 8px;
