@@ -181,9 +181,12 @@ optgroup {
 }
 table {
   border-spacing: 5px;
-  border-collapse: collapse;
+/*  border-collapse: collapse;*/
 }
-td,
+td {
+    text-align: left
+}
+
 th {
   padding: 5px;
 }
