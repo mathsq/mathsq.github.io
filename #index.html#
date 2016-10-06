@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Student Maths Colloquium</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    #map {
+        height: 100%;
+      }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SMQ</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="pages/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+
+    
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Student Maths Colloquium</h1>
+          <!--<p class="lead">Handwaving in front of a forgiving audience.</p>-->
+        </div>
+      </div>
+
+      <hr>
+    </div>
+
+    <div class="container">
+      <div>
+	<h2>Next event</h2>
+      </div>
+
+      <p></p>
+      <div class="alert alert-info">
+	<h3>Joshua Mathwiz (22 October)</h3>
+	<hr>
+	<lead><strong>Turán numbers of super-cliques in what-not graphs</strong></lead>
+	<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+	  responsive, mobile-first projects on the web. Saudská Arábia v rámci prijatých úsporných opatrení rozhodla, že štátnym zamestnancom bude mzdu vypočítavať podľa západného, gregoriánskeho kalendára - a nie podľa islamského ako doteraz. Haha</p> 
+      </div>
+      <div>
+      <p> At <b> 2pm</b> in <b>Room M306</b> (3rd floor) in the <b>Alan Turing</b> building, <b>The Open University, Milton Keynes.</b> See the bottom of the page for a map.
+      </p>
+      </div>
+      <hr>
+    </div>
+    <!-- /.container -->
+
+
+        
+    
+    <div class="container">
+      <div>
+	<h2>Forthcoming talks</h2>
+      </div>
+    
+      <p style="color:#37474F">Access abstracts by clicking on the corresponding line in the table. You can also view the events in the <a class="btn btn-primary" data-toggle="collapse" href="#collapseCalendar" aria-controls="collapseCalendar">calendar</a></p>
+      <div class="collapse" id="collapseCalendar">
+	<div class="responsive-iframe-container big-container">
+	  <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=student.maths.colloquium%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FLondon" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+      </div>
+      
+    
+    <table class="table table-hover">
+	<thead>
+	  <tr>
+	    <th> Date </th>
+	    <th> Name </th>
+	    <th> Talk </th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr class="clickable" data-toggle="collapse" data-target="#collapseAbstractJakub">
+	    <td> 12 November </td>
+	    <td> <a href="http://www.google.com" target="_blank">Nobody Important</a> </td>
+	    <td> <b>Picking berries in December.</b> <a href="javascript:;">[+]</a></td>
+	  </tr>
+	  <tr>
+	    <td colspan="3">
+    	      <div class="collapse" id="collapseAbstractJakub">
+		<div class="card card-block" style="color:#37474F">
+		  This is the actual abstract. Still need to figure out how to use Latex in here!
+		</div>
+	      </div>
+	    </td>
+	  </tr>
+
+	  <tr class="clickable" data-toggle="collapse" data-target="#collapseAbstractDefinitely">
+	    <td> 23 November </td>
+	    <td> <a href="http://www.google.com" target="_blank">Definitely Unimportant</a> </td>
+	    <td> <b>Dancing about architecture.</b> <a href="javascript:;">[+]</a></td>
+	  </tr>
+	  <tr>
+	    <td colspan="3">
+    	      <div class="collapse" id="collapseAbstractDefinitely">
+		<div class="card card-block" style="color:#37474F">
+		  There is really nothing sensible that one could write here. Just as well this is just an abstract and two sentences suffice.
+		</div>
+	      </div>
+	    </td>
+	  </tr>
+
+	  <tr class="clickable" data-toggle="collapse" data-target="#collapseAbstractWho">
+	    <td> 9 December </td>
+	    <td> <a href="http://www.google.com" target="_blank">Who Cares</a> </td>
+	    <td> <b>Reproductive habits of 5-legged ants.</b> <a href="javascript:;">[+]</a></td>
+	  </tr>
+	  <tr>
+	    <td colspan="3">
+    	      <div class="collapse" id="collapseAbstractWho">
+		<div class="card card-block" style="color:#37474F">
+		  No LaTeX rendering needed to display the abstract for this talk. Should still find out how to do it though.
+		</div>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+    </table>
+    
+
+
+
+
+
+
+      
+    <div class="container">
+      <div class="row-fluid">
+	<h2>Map</h2>
+	<p>The pin points exactly at the entrance to the building.</p>
+        <div class="span8">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d613.7390583613488!2d-0.7107865118614076!3d52.0258949987265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDAxJzMzLjIiTiAwwrA0MiczNi45Ilc!5e0!3m2!1sen!2suk!4v1475668880420" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    	</div>
+      </div>
+    </div>
+    <!-- /.container -->
+    
+</div>
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
